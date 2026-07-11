@@ -1,0 +1,230 @@
+[
+  {
+    "id": "xinh-mun",
+    "name": "Dân tộc Xinh Mun",
+    "mascot_intro": "Xin chào, ta là Mẩy, một cô gái người Xinh Mun sống giữa núi rừng Tây Bắc. Bà thường nói, chúng ta lớn lên cùng tiếng suối và màu xanh của rừng, nên từ cách ăn mặc đến nếp sống đều mang hơi thở của thiên nhiên.",
+    "content": {
+      "trang_phuc": "“ Mỗi ngày lên nương, ta mặc áo chàm, váy đen và quấn khăn trên đầu cho gọn gàng. Nhưng vào ngày hội, ta sẽ khoác bộ váy đẹp nhất với những đường thêu đỏ, trắng và xanh, đeo vòng bạc, khuyên tai bạc và chiếc thắt lưng mẹ dệt. Bà bảo màu chàm là màu của núi rừng, còn những sắc màu rực rỡ là lời cầu mong mùa màng no đủ.”",
+      "am_thuc": "“ Sau một ngày làm việc, cả gia đình quây quần bên bếp lửa với xôi nếp, cá suối nướng, măng rừng và rau rừng. Những dịp lễ, mọi người cùng uống rượu cần để chúc nhau một năm bình an, vì với người Xinh Mun, bữa cơm ngon nhất là bữa cơm có đủ cả gia đình.”",
+      "phong_tuc": "“ Người trong bản luôn giúp nhau dựng nhà, làm nương và sau mỗi vụ gặt đều tổ chức lễ mừng cơm mới. Trước khi ăn những hạt gạo đầu mùa, chúng ta đều dâng lên tổ tiên và thần núi, thần rừng để tỏ lòng biết ơn.”",
+      "chuyen_ke": "“ Bà từng kể rằng, ngày xưa có một cô gái mang hạt giống lên núi cầu xin thần rừng cứu dân bản khỏi nạn hạn hán. Cảm động trước tấm lòng ấy, thần đã ban mưa để cây lúa hồi sinh. Từ đó, người Xinh Mun luôn làm lễ mừng cơm mới sau mỗi mùa gặt, như một lời cảm ơn thiên nhiên đã nuôi sống bản làng và nhắc con cháu phải biết trân trọng từng hạt gạo mình làm ra. Đó là câu chuyện ta lớn lên cùng, và cũng là điều khiến ta luôn tự hào khi được là người Xinh Mun.” [ Lễ Mừng cơm mới (hay Trả pa me) là một nghi lễ nông nghiệp thiêng liêng, quan trọng nhất trong đời sống tâm linh của đồng bào dân tộc Xinh Mun. ]"
+    },
+    "images": []
+  },
+  {
+    "id": "la-ha",
+    "name": "Dân tộc La Ha",
+    "mascot_intro": "Xin chào, ta là Khăm, một người con của dân tộc La Ha. Ta lớn lên giữa núi rừng Tây Bắc, nơi cha mẹ dạy rằng con người phải sống hòa thuận với thiên nhiên thì bản làng mới mãi bình yên.",
+    "content": {
+      "trang_phuc": "“ Mỗi ngày, ta khoác chiếc áo chàm giản dị, còn mẹ và chị mặc váy chàm điểm những hoa văn đỏ, xanh như màu của núi, rừng và sự sống. Vào những ngày hội lớn, ai cũng mặc bộ trang phục đẹp nhất, quấn khăn trên đầu, thắt chiếc thắt lưng do chính tay mình dệt và đeo vòng bạc, hoa tai bạc lấp lánh. Người già bảo màu chàm là màu của đất trời, nhắc chúng ta luôn nhớ về cội nguồn.”",
+      "am_thuc": "“ Sau những ngày lên nương, cả gia đình quây quần bên mâm cơm với xôi nếp dẻo thơm, thịt hun khói, rau rừng và chén rượu men lá nồng ấm. Mỗi món ăn đều là món quà núi rừng ban tặng và là niềm tự hào của người La Ha.”",
+      "phong_tuc": "“ Điều ta mong chờ nhất mỗi năm là lễ Pang A. Đó là ngày cả bản cùng dâng lễ vật để tạ ơn thần rừng, thần suối đã chở che cho mùa màng. Trong những ngôi nhà sàn, tiếng hát, tiếng khèn và lời chúc vang lên khắp bản. Những lễ cưới truyền thống cũng được tổ chức thật trang trọng, để hai gia đình cùng đón một khởi đầu mới trong sự chứng giám của tổ tiên và cộng đồng.”",
+      "chuyen_ke": "“ Già làng từng kể rằng, thuở xưa thần rừng thấy con người chỉ biết lấy đi mà quên nói lời cảm ơn. Thần bèn giấu hết muông thú và làm cây cối khô héo. Chỉ đến khi dân bản cùng nhau dâng lễ, hứa sẽ biết gìn giữ rừng và trân trọng nguồn nước, thần mới cho cây cối xanh trở lại, chim thú quay về và lúa trên nương tốt tươi như trước. Vì thế, từ bao đời nay, người La Ha luôn cúng thần rừng trước mỗi mùa vụ, để nhắc con cháu rằng thiên nhiên không chỉ nuôi sống con người, mà còn cần được con người yêu thương và gìn giữ.”"
+    },
+    "images": []
+  },
+  {
+    "id": "lu",
+    "name": "Dân tộc Lự",
+    "mascot_intro": "Xin chào! Ta là Nả, một cô gái người Lự. Bà vẫn thường bảo rằng chỉ cần nhìn cách ăn mặc là có thể nhận ra người Lự giữa muôn vàn dân tộc nơi núi rừng Tây Bắc.",
+    "content": {
+      "trang_phuc": "“ Mỗi sáng, ta mặc chiếc áo chàm xẻ ngực do chính mẹ dệt, buộc bằng những dải tua nhiều màu đỏ, xanh rực rỡ. Trên mái tóc, ta luôn đội chiếc khăn nghiêng về bên trái, để lộ phần viền thêu sặc sỡ mà bà đã tỉ mỉ thêu từng mũi chỉ. Ta còn đeo vòng bạc, hoa tai, cài chiếc trâm nhỏ lên tóc và buộc chiếc thắt lưng dệt thủ công. Còn các chàng trai trong bản ăn mặc giản dị hơn. Họ khoác áo chàm đen xẻ ngực, cài cúc bằng dây vải, quần nhuộm chàm và ngày trước còn quấn khăn đen nhiều vòng trên đầu. Dẫu cuộc sống đổi thay, màu chàm ấy vẫn là dấu hiệu để người Lự nhớ về cội nguồn.”",
+      "am_thuc": "“ Sau những ngày lao động, cả gia đình quây quần bên mâm cơm với cơm, xôi nếp, cá suối, thịt lợn bản, rau rừng, măng và chén rượu gạo thơm nồng. Những món ăn giản dị ấy luôn gợi cho ta nhớ hương vị của núi rừng quê hương.”",
+      "phong_tuc": "“ Điều ta mong chờ nhất trong năm là lễ Then Kin Pang. Đó là ngày cả bản cùng múa hát, cầu mong mùa màng tốt tươi và cuộc sống bình an. Tiếng khèn, tiếng trống vang lên khắp những ngôi nhà sàn. Các bà, các mẹ mang những tấm vải đẹp nhất do chính tay mình dệt ra khoe với mọi người. Người Lự chúng ta luôn tự hào về nghề dệt truyền thống, bởi từng sợi chỉ đều chứa đựng sự khéo léo và tình yêu dành cho gia đình. Khi người con gái lập gia đình, mái tóc sẽ được búi cao như một dấu hiệu cho biết họ đã bước sang một chặng đường mới của cuộc đời. “",
+      "chuyen_ke": "“ Bà ngoại từng kể cho ta nghe sự tích. Ngày xưa, có một cô gái dệt vải đẹp đến mức nàng tiên trên trời cũng ngỡ ngàng. Thấy cô gái chăm chỉ và hiền hậu, nàng tiên đã tặng một chiếc áo trắng tinh khôi, dặn rằng hãy giữ lấy nghề dệt để truyền lại cho con cháu. Từ đó, người Lự luôn xem việc dệt vải là niềm tự hào của dân tộc. Những bộ trang phục hôm nay tuy điểm thêm sắc chàm, đỏ và xanh, nhưng vẫn mang trong mình sự khéo léo và tình yêu mà tổ tiên đã gửi gắm qua từng đường kim, mũi chỉ.”"
+    },
+    "images": []
+  },
+  {
+    "id": "kinh",
+    "name": "Dân tộc Kinh (Việt)",
+    "mascot_intro": "Xin chào, ta là An, một người con của dân tộc Kinh. Nếu có dịp ghé thăm ngôi nhà của ta vào một ngày Tết, có lẽ bạn sẽ hiểu vì sao người Kinh luôn coi gia đình là điều quý giá nhất.",
+    "content": {
+      "trang_phuc": "“ Người Kinh chúng ta có nhiều kiểu trang phục gắn với từng vùng miền và từng dịp khác nhau. Ngày lễ, phụ nữ thường mặc áo dài hoặc áo tứ thân duyên dáng, còn nam giới mặc áo dài truyền thống (áo ngũ thân hoặc áo dài cách tân) kết hợp với quần dài, hoặc bộ áo cánh truyền thống đi kèm khăn xếp trong các dịp lễ Tết, hội hè . Hiện nay, phong cách mặc hiện đại cũng được ưa chuộng, tùy thuộc vào tính chất của sự kiện. Chiếc nón lá, khăn vấn, khăn rằn, chiếc trâm cài tóc hay những món trang sức nhỏ đều góp phần làm nên vẻ đẹp của người Việt qua bao thế hệ.”",
+      "am_thuc": "“ Mùi thơm từ căn bếp cũng là điều không thể thiếu. Nồi bánh chưng nghi ngút khói, bát phở nóng hổi, đĩa nem vàng ruộm, bún và chén nước mắm đậm đà đã trở thành hương vị quen thuộc trong mỗi gia đình. Dù đi xa đến đâu, chỉ cần ngửi thấy mùi bánh chưng hay nước mắm, ta lại nhớ về quê nhà.”",
+      "phong_tuc": "“ Điều ta trân quý nhất là những phong tục đã được gìn giữ từ đời này sang đời khác. Mỗi dịp Tết, con cháu sum họp thắp nén hương lên bàn thờ tổ tiên để bày tỏ lòng biết ơn. Những ngày giỗ, lễ cưới hay lễ hội làng đều là dịp để mọi người gặp gỡ, gắn kết và cùng gìn giữ những giá trị truyền thống của dân tộc.”",
+      "chuyen_ke": "“ Ông nội thường kể rằng, từ thuở xa xưa, Lạc Long Quân và Âu Cơ sinh ra một bọc trăm trứng, nở thành một trăm người con. Năm mươi người theo cha xuống biển, năm mươi người theo mẹ lên núi, cùng nhau mở mang đất nước. Vì thế, người Việt vẫn tự hào gọi mình là \"Con Rồng, cháu Tiên\". Câu chuyện ấy không chỉ kể về nguồn gốc dân tộc, mà còn nhắc nhở chúng ta rằng dù sống ở miền núi hay đồng bằng, ven biển hay thành thị, tất cả đều chung một cội nguồn và luôn yêu thương, đùm bọc lẫn nhau.”"
+    },
+    "images": []
+  },
+  {
+    "id": "tay",
+    "name": "Dân tộc Tày",
+    "mascot_intro": "Xin chào, ta là Then, một người con của dân tộc Tày. Nơi ta sống là những bản làng yên bình nép mình bên sườn núi, với những ngôi nhà sàn và tiếng đàn Tính vang lên mỗi chiều. Bà vẫn thường nói rằng, chỉ cần nhìn màu áo chàm cũng đủ nhận ra người Tày giữa núi rừng.",
+    "content": {
+      "trang_phuc": "“ Ngày thường, ta mặc chiếc áo năm thân cùng quần chàm giản dị. Các bà, các mẹ cũng mặc áo chàm nhưng không mặc váy như nhiều dân tộc khác. Chiếc khăn chàm, thắt lưng dệt, túi vải bên hông cùng vòng bạc và hoa tai là những món đồ đã theo người Tày từ bao đời. Màu chàm đen không chỉ giúp quần áo bền đẹp mà còn nhắc chúng ta nhớ về sự mộc mạc, chân thành của quê hương.”",
+      "am_thuc": "“ Bữa cơm của gia đình ta luôn đậm hương vị núi rừng. Mỗi dịp lễ hay Tết, mẹ lại làm khâu nhục, vịt quay lá mắc mật, xôi ngũ sắc, bánh khảo, bánh coóc mò và thịt hun khói. Mỗi món ăn không chỉ để thưởng thức mà còn là cách người Tày gửi gắm tình cảm đến gia đình và khách quý.”",
+      "phong_tuc": "“ Điều ta mong chờ nhất mỗi năm là Lễ hội Lồng Tồng – ngày hội xuống đồng đầu xuân. Cả bản cùng tụ họp, dâng lễ vật lên tổ tiên và đất trời để cầu cho mưa thuận gió hòa, mùa màng bội thu. Tiếng hát Then hòa cùng tiếng đàn Tính vang khắp bản làng, mang theo những lời chúc tốt đẹp cho một năm mới.”",
+      "chuyen_ke": "“ Ông nội từng kể rằng, thuở xa xưa có một năm mất mùa, cây lúa không trổ bông, cuộc sống vô cùng khó khăn. Một chàng trai đã thay mặt dân bản mang những hạt lúa đẹp nhất dâng lên đất trời với lòng biết ơn và lời cầu mong cho mùa vụ mới. Cảm động trước tấm lòng ấy, đất trời ban mưa đúng lúc, ruộng đồng xanh trở lại và lúa trĩu bông khắp cánh đồng. Từ đó, người Tày tổ chức Lễ hội Lồng Tồng vào mỗi độ xuân về để tạ ơn đất trời và gửi gắm ước mong một năm no đủ. Đó cũng là lời nhắc nhở con cháu rằng, biết ơn thiên nhiên chính là cách gìn giữ cuộc sống cho mai sau.”"
+    },
+    "images": []
+  },
+  {
+    "id": "nung",
+    "name": "Dân tộc Nùng",
+    "mascot_intro": "Xin chào, ta là Lương, một người con của dân tộc Nùng. Quê hương ta nằm giữa những thung lũng và triền núi xanh mát. Từ nhỏ, cha mẹ đã dạy rằng người Nùng có thể không giàu của cải, nhưng luôn giàu truyền thống và tình yêu dành cho quê hương.",
+    "content": {
+      "trang_phuc": "“ Mỗi ngày, ta mặc chiếc áo dài chàm cùng quần chàm giản dị để thuận tiện lao động. Các bà, các mẹ cũng mặc áo dài chàm và quần chàm, không mặc váy. Trên đầu là chiếc khăn chàm gọn gàng, bên hông buộc chiếc thắt lưng dệt, điểm thêm vòng bạc và đôi hoa tai nhỏ. Màu xanh chàm, đen chàm đã theo người Nùng từ bao đời, như màu của núi rừng và sự bền bỉ của con người nơi đây.”",
+      "am_thuc": "“ Mỗi khi cả nhà quây quần bên mâm cơm, ta luôn mong được thưởng thức những món ăn quen thuộc như khâu nhục, vịt quay lá mắc mật, phở chua, bánh khảo, bánh ngải và xôi ngũ sắc. Mỗi món ăn đều mang hương vị riêng của núi rừng, đặc biệt là mùi thơm dịu của lá mắc mật – thứ gia vị mà người Nùng vô cùng trân quý.”",
+      "phong_tuc": "“ Đầu xuân là thời điểm nhộn nhịp nhất trong bản. Mọi người cùng tham gia Lễ hội Lồng Tồng, cầu mong mưa thuận gió hòa và mùa màng bội thu. Tiếng hát Sli, Lượn vang lên khắp bản làng, hòa cùng tiếng búa của những người thợ rèn cần mẫn. Trong những ngôi nhà sàn ấm cúng, con cháu quây quần thắp hương tưởng nhớ tổ tiên, gìn giữ những phong tục đã truyền qua nhiều thế hệ.” [ Lễ hội Lồng Tồng (còn gọi là lễ hội xuống đồng) là lễ hội truyền thống quan trọng của đồng bào dân tộc Tày và Nùng ]",
+      "chuyen_ke": "“ Ông nội từng kể rằng, ngày xưa có một chàng trai lạc trong rừng nhiều ngày. Khi kiệt sức, chàng được một loài cây tỏa hương thơm dẫn lối đến nguồn nước và giúp tìm thấy đường về bản. Từ đó, dân bản gọi loài cây ấy là mắc mật và dùng lá, quả của nó để chế biến những món ăn ngon nhất trong các dịp lễ. Người Nùng cũng tin rằng, muốn cây mắc mật mãi xanh tốt thì phải biết giữ gìn rừng núi. Vì vậy, mỗi khi thưởng thức hương thơm của lá mắc mật, ta lại nhớ lời ông dặn: \"Yêu rừng thì rừng sẽ nuôi sống con người.”"
+    },
+    "images": []
+  },
+  {
+    "id": "san-chay",
+    "name": "Dân tộc Sán Chay (Cao Lan, Sán Chỉ)",
+    "mascot_intro": "Xin chào, ta là Lìn, một người con của dân tộc Sán Chay. Người trong bản ta vẫn thường nói rằng, chỉ cần nghe tiếng hát vang giữa núi rừng là biết người Sán Chay đang gặp gỡ nhau, bởi tiếng hát đã gắn bó với chúng ta từ bao đời.",
+    "content": {
+      "trang_phuc": "“ Mỗi ngày, ta khoác chiếc áo chàm giản dị. Tùy từng vùng, các chị em trong bản có người mặc quần, có người mặc váy, nhưng ai cũng quấn khăn trên đầu thật gọn gàng. Bộ trang phục được điểm thêm những gam màu xanh chàm, đen, nâu, trắng và vài nét đỏ nổi bật. Vòng bạc, hoa tai và chiếc thắt lưng dệt thủ công tuy mộc mạc nhưng luôn được gìn giữ như món quà của tổ tiên.”",
+      "am_thuc": "“ Bữa cơm của gia đình ta mang đậm hương vị núi rừng với cơm, xôi ngũ sắc, bánh ngải, bánh gai, cá suối nướng và chén rượu men lá thơm nồng. Mỗi món ăn đều được làm từ những sản vật quen thuộc, chứa đựng sự khéo léo và tấm lòng hiếu khách của người Sán Chay.”",
+      "phong_tuc": "“ Mỗi độ xuân về, cả bản lại tổ chức lễ cầu mùa để cầu mong mưa thuận gió hòa, cây lúa trĩu bông. Trong những ngôi nhà sàn ấm cúng, con cháu thắp hương tưởng nhớ tổ tiên. Nhưng điều làm ta mong chờ nhất là những đêm hát Sình ca. Nam nữ đứng thành từng tốp, cất tiếng hát đối đáp để làm quen, gửi gắm tình cảm và chia sẻ những lời chúc tốt đẹp. Tiếng hát ngân vang giữa núi rừng khiến cả bản làng thêm rộn ràng.”",
+      "chuyen_ke": "“ Bà nội từng kể rằng, thuở xưa có một đôi trai gái yêu nhau nhưng bị ngăn cách bởi núi cao và dòng suối lớn. Họ không thể gặp nhau, chỉ biết gửi nỗi nhớ qua những câu hát vọng từ sườn núi này sang sườn núi khác. Tiếng hát chân thành ấy đã làm cảm động đất trời, giúp hai người tìm được nhau. Từ đó, người Sán Chay gìn giữ Sình ca như một nét đẹp văn hóa, để mỗi câu hát không chỉ kết nối những đôi lứa mà còn gắn kết cả bản làng qua nhiều thế hệ.”"
+    },
+    "images": []
+  },
+  {
+    "id": "gia-rai",
+    "name": "Dân tộc Gia Rai",
+    "mascot_intro": "\"Ami neng! Tôi là Pliơ, người con của đại ngàn Gia Rai. Hãy ngồi xuống bên bếp lửa nhà sàn dài, uống hớp rượu cần và nghe tôi kể về buôn làng mình.\"",
+    "content": {
+      "trang_phuc": "\"Trang phục của chúng tôi mang sắc chàm đen phối cùng hoa văn đỏ rực của lửa và vàng của nắng. Ngày thường nam đóng khố Ktai, nữ mặc váy quấn Blan; ngày hội lễ bỏ mả thì diện áo choàng tua rua và váy thêu hoa văn hình học, đeo vòng tay bạc cùng khuyên ngà voi lớn.\"",
+      "am_thuc": "\"Chúng tôi thích vị hoang dã của Gà nướng Sa lửa chấm Muối kiến vàng chua cay giã cùng ớt xiêm rừng và lá é, hoặc món Canh bồi lá mì giã nát trộn hoa chuối.\"",
+      "phong_tuc": "\"Buôn làng tôi theo chế độ mẫu hệ, con cái mang họ mẹ và con gái đi 'bắt chồng' về ở rể. Đặc biệt nhất là Lễ hội Pơ thi (Bỏ mả), nghi lễ lớn nhất tiễn biệt linh hồn người chết về thế giới ông bà để giải phóng tang tóc cho người sống.\"",
+      "chuyen_ke": "\"Ngày xưa hạn hán nặng, già làng mơ thấy Giàng bảo dựng cây nêu Kơ tơng cao vút làm bậc thang đón thần linh và tế một con trâu đực khỏe mạnh. Khi làm theo, mưa đổ xuống như trút, cứu sống vụ mùa. Lễ đâm trâu tạ ơn Giàng ra đời từ đó.\""
+    },
+    "images": []
+  },
+  {
+    "id": "e-de",
+    "name": "Dân tộc Ê Đê",
+    "mascot_intro": "\"Ya-pâu! Tôi là H'Nhách, người con gái lớn lên dưới mái nhà sàn dài vùng Đắk Lắk. Hãy nghe tiếng gió rít qua khung cửa sổ để cùng tôi khám phá thế giới mẫu hệ đầy kiêu hãnh.\"",
+    "content": {
+      "trang_phuc": "\"Y phục chúng tôi màu đen hoặc chàm đậm thêu sọc đỏ, trắng, vàng. Nữ mặc áo chui đầu Kpan dài tay phối váy quấn Ieng quét đất, nam đóng khố ngắn. Riêng áo Kpan của tù trưởng có thêu hoa văn 'đại bàng tung cánh' oai nghiêm. Ngày hội, phụ nữ đeo thêm chuỗi cườm quấn nhiều vòng và chiếc vòng đồng đính ước quanh cổ tay.\"",
+      "am_thuc": "\"Đến chơi nhà tôi, bạn sẽ được đãi món Gỏi cà đắng giã cá khô nướng cực kỳ cay xé với ớt xiêm rừng và lá kơm-ăm, cùng bát Canh lá rừng ngọt mát, bổ dưỡng.\"",
+      "phong_tuc": "\"Linh hồn văn hóa Ê Đê là ngôi Nhà sàn dài che chở nhiều thế hệ theo dòng họ mẹ. Trước nhà có chiếc Cầu thang Cái chạm đôi bầu vú mẹ và vầng trăng khuyết – lối đi riêng của phụ nữ và khách quý, biểu tượng quyền lực tối cao của người mẹ.\"",
+      "chuyen_ke": "\"Thuở xưa loài người sống hoang dã, Nữ thần Mặt Trời thương tình hóa thân thành người mẹ lấy sữa nuôi sống loài người và dạy cách đục gỗ làm nhà sàn cao tránh hổ báo. Tổ tiên tôi tạc hình đôi bầu vú lên cầu thang để nhắc nhở con cháu đời đời kính trọng người phụ nữ.\""
+    },
+    "images": []
+  },
+  {
+    "id": "ba-na",
+    "name": "Dân tộc Ba Na",
+    "mascot_intro": "\"Ta là già làng Đinh Bok. Đứng dưới bóng mái nhà Rông cao vút bên dòng sông Ba hiền hòa, hãy cùng ta ngồi quanh ghè rượu cần, nghe tiếng đàn T'rưng reo vui để hiểu về cội nguồn người Ba Na.\"",
+    "content": {
+      "trang_phuc": "\"Trang phục chúng ta chuộng màu trắng và chàm, tượng trưng cho sự thuần khiết và lòng trung thực. Ngày thường nam đóng khố, nữ mặc váy ngắn đến gối; ngày lễ mừng lúa mới, đàn ông oai nghiêm trong chiếc áo cộc tay vai vuông dệt hoa văn hình thoi lớn ở lưng, phụ nữ diện váy sọc trắng viền đỏ rực.\"",
+      "am_thuc": "\"Người Ba Na tự hào nhất với món Cơm lam. Gạo nếp nương được cho vào ống tre lồ ô nướng cháy sém vỏ ngoài, khi bóc ra có lớp màng mỏng mịn bao bọc, chấm muối mè rừng ăn cùng thịt lợn rừng nướng xiêm tre thì ngon tuyệt.\"",
+      "phong_tuc": "\"Trái tim của buôn làng là ngôi Nhà Rông có mái nhọn xuôi dốc, cao vút lên trời như lưỡi rìu khổng lồ dựng ngược. Đây là nơi các bô lão họp bàn việc chung, nơi cúng tế và là nơi ngủ tập trung của các chàng trai chưa vợ để sẵn sàng bảo vệ buôn.\"",
+      "chuyen_ke": "\"Ngày xưa có con quỷ dữ hay phá bản làng, Thần Núi Bơ nâm ban cho già làng chiếc rìu đá thần quạt gió thổi bay quỷ dữ. Để tạ ơn Thần và răn đe lũ quỷ, dân làng dựng nhà chung mô phỏng chiếc rìu đá chĩa thẳng lên trời xanh từ đó.\""
+    },
+    "images": []
+  },
+  {
+    "id": "xo-dang",
+    "name": "Dân tộc Xơ Đăng",
+    "mascot_intro": "\"Chào những người anh em! Tôi là A Khao, người con Xơ Đăng dưới chân núi Ngọc Linh quanh năm mây phủ. Bàn tay tôi biết rèn dao sắc, biết gảy đàn nước ngoài suối và dệt tấm choàng ấm áp.\"",
+    "content": {
+      "trang_phuc": "\"Y phục chúng tôi màu chàm đen phối hoa văn kỷ hà đỏ, trắng, xanh dương. Ngày thường nam đóng khố quấn nhiều vòng bụng, nữ mặc váy quấn dài. Ngày hội, đàn ông oai phong với áo choàng quấn chéo vai như chiến binh, đầu quấn khăn chữ V; phụ nữ mặc áo tay dài thêu hoa văn 'mắt chim' đặc trưng vùng Ngọc Linh.\"",
+      "am_thuc": "\"Món ăn độc đáo trong bữa cơm mộc mạc của chúng tôi là Nước súp lá kơ-tiêu nấu với thịt chuột đá, chim rừng và món Măng chua ngâm ống tre tươi. Vị cay hắc, chua nồng này giúp xua tan mệt mỏi rất tốt sau những ngày dài lên rẫy.\"",
+      "phong_tuc": "\"Chúng tôi nổi tiếng với nghề rèn đúc sắt bén và hệ thống Đàn nước K'long put. Đàn làm từ những ống tre dài rỗng đặt cạnh suối dốc, dùng sức nước chảy đẩy không khí vào lòng ống tạo âm thanh trầm bổng để xua đuổi chim muông, bảo vệ nương rẫy.\"",
+      "chuyen_ke": "\"Năm ấy hạn hán, chim muông phá sạch lúa làm người vợ khóc sưng mắt. Người chồng liền chặt các ống tre đặt bên suối cho nước chảy qua gõ thành tiếng 'pút, pút' vang động làm lũ chim hoảng sợ bay đi mất, nhờ đó cứu sống mùa màng.\""
+    },
+    "images": []
+  },
+  {
+    "id": "mnong",
+    "name": "Dân tộc Mnông",
+    "mascot_intro": "\"Ta là Y Krông, người quản tượng của buôn làng Mnông bên hồ Lắk bao la. Bạn có nghe tiếng bước chân trầm hùng của những chú voi rừng không? Hãy đến đây ngồi trên lưng voi, ta kể nghe về huyền thoại dũng sĩ săn voi.\"",
+    "content": {
+      "trang_phuc": "\"Vải vóc chúng ta màu đen hoặc chàm sẫm thêu hoa văn muông thú, cây cỏ. Ngày thường nam đóng khố Troi, nữ quấn váy dài Gung thêu gấu tỉ mỉ. Khi vào hội thuần dưỡng voi, người quản tượng đội mũ bện cỏ sừng trâu, mặc khố có tua rua dài chạm đất và đeo khuyên tai ngà voi khổng lồ để thể hiện địa vị gia đình.\"",
+      "am_thuc": "\"Món ăn độc nhất của người Mnông là Canh tro (Canh thụt). Chúng ta cho lá bép, đọt mây non, da trâu khô, cá suối và ớt xiêm vào ống tre tươi nướng trên bếp than, dùng thanh tre thụt liên tục cho nhuyễn nát, tạo vị đắng ngọt bùi béo ngậy.\"",
+      "phong_tuc": "\"Buôn làng ta trứ danh với nghề săn bắt và thuần dưỡng voi rừng tại Bản Đôn. Voi được trân quý như một thành viên ruột thịt, được cúng sức khỏe định kỳ và chôn cất trang trọng khi qua đời. Bản sắc ấy còn lưu giữ qua kho tàng Sử thi Ot Ndrông truyền lại bao đời.\"",
+      "chuyen_ke": "\"Thuở xa xưa có đàn voi độc hung dữ hay phá rẫy hại buôn. Chàng Y Thu Knuột mưu trí đã vào rừng học tiếng voi, tự chế ra sợi dây thừng bện bằng da trâu linh thiêng Nual để thu phục con voi độc đầu đàn, biến voi thành bạn giúp buôn làng và được tôn phong là vua săn voi Khun Yu Nốp.\""
+    },
+    "images": []
+  },
+  {
+    "id": "co-ho",
+    "name": "Dân tộc Cơ Ho",
+    "mascot_intro": "\"Tôi là K'Dũng, sinh ra dưới chân đỉnh núi Langbiang huyền thoại quanh năm sương mù bao phủ. Hãy để tiếng đàn đá dẫn lối đưa bạn vào không gian lãng mạn nhưng đầy huyền bí của dân tộc Cơ Ho nhé.\"",
+    "content": {
+      "trang_phuc": "\"Y phục chúng tôi nền xanh đen hoặc chàm đậm phối sọc trắng, đỏ, xanh lá. Ngày thường nam quấn khố, khoác chăn Uh khi lạnh, nữ mặc váy quấn hông dài quá gối. Lộng lẫy nhất là đồ cưới của cô gái Cơ Ho Lạch với chiếc áo dệt hoa văn hình thoi chéo, đầu cài khăn tua rua đỏ và tay đeo vòng đồng cầu an.\"",
+      "am_thuc": "\"Chúng tôi luôn thiết đãi khách quý bằng món Thịt lợn đen nướng ống lồ ô. Thịt lợn rẫy thái mỏng, ướp sả rừng, ớt xiêm rồi nhồi chặt vào ống tre nướng trên than hồng, nước thịt hòa quyện nhựa tre non tạo nên mùi thơm ngọt ngào, béo ngậy.\"",
+      "phong_tuc": "\"Chúng tôi tôn thờ Thần vũ trụ Yang và mở lễ mừng lúa mới Nhô Lir bông sau mùa gặt. Đời sống theo chế độ mẫu hệ nên con gái chủ động chuẩn bị sính lễ đi hỏi chồng, chàng trai về ở rể. Quyền gia sản và thừa kế chính thuộc về người mẹ và con gái út.\"",
+      "chuyen_ke": "\"Ngày xưa hai bộ tộc Chil và Lạch thù hằn nhau dữ dội, nhưng chàng K'Lang và nàng H'Biang lại yêu nhau rồi trốn lên núi sống. Khi nàng H'Biang bị trúng mũi tên độc chết, chàng K'Lang khóc thương đến kiệt sức, nước mắt hóa thành dòng suối Vàng. Để hối hận, hai bộ tộc xóa bỏ hận thù và gọi tên đỉnh núi là Langbiang để khắc ghi mối tình bất tử.\""
+    },
+    "images": []
+  },
+  {
+    "id": "ma",
+    "name": "Dân tộc Mạ",
+    "mascot_intro": "\"Tôi là Ka Ty, người con gái Mạ bên thượng nguồn sông Đồng Nai. Hãy ghé thăm ngôi nhà sàn lợp lá mây của chúng tôi để cùng trò chuyện nhé.\"",
+    "content": {
+      "trang_phuc": "\"Khác với các buôn làng khác, người Mạ chúng tôi rất chuộng nền vải màu trắng tinh khiết hoặc xanh thẫm, thêu hoa văn đỏ, đen vô cùng tinh vi. Ngày thường nam đóng khố tua dài, nữ mặc váy quấn sát hông tôn dáng. Vào lễ hội lớn, chúng tôi sẽ khoác thêm tấm chăn Uh dệt hình phượng hoàng và đeo Klíp – tấm căng tai bằng gỗ hoặc ngà voi độc đáo.\"",
+      "am_thuc": "\"Món ăn dân dã và bổ dưỡng nhất của chúng tôi là Canh bồi lá nhíp. Lá nhíp tươi hái từ rừng sâu đem vò nát, nấu cùng bột gạo bồi nếp, thịt cá suối giã nhỏ và ớt rừng thành một hỗn hợp sền sệt, có vị ngọt thanh.\"",
+      "phong_tuc": "\"Chúng tôi có tín ngưỡng đa thần sâu sắc, thường tổ chức Lễ cúng thần rừng Yang Bơn nâm cầu bình an cho buôn làng. Báu vật âm nhạc của người Mạ chính là bộ cồng chiêng không núm và những thanh đàn đá cổ sơ.\"",
+      "chuyen_ke": "\"Ngày xưa, trời mưa lớn liên tục suốt ba mùa trăng khiến sông Đồng Nai dâng cao ngập hết núi đồi. Tổ tiên người Mạ gom nhau leo lên đỉnh núi cao nhất bái lạy thần Sông Yang Đạ. Thần cảm động liền hóa phép ra một cây tre khổng lồ rỗng ruột để dân làng chui vào trốn, nhờ vậy khi nước rút, bộ tộc chúng tôi đã được cứu sống.\""
+    },
+    "images": []
+  },
+  {
+    "id": "chu-ru",
+    "name": "Dân tộc Chu Ru",
+    "mascot_intro": "\"Tôi là Tou Prong Ya từ thung lũng Đơn Dương đầy nắng gió. Dân tộc Chu Ru chúng tôi tự hào có chiếc nhẫn bạc Sri linh thiêng và những bình gốm mộc không cần lò nung.\"",
+    "content": {
+      "trang_phuc": "\"Y phục của chúng tôi có nét giao thoa độc đáo với người Chăm, chủ yếu dùng màu trắng, chàm phối hoa văn đỏ, đen ở mép áo gấu váy. Ngày hội, phụ nữ Chu Ru sẽ mặc áo dài trắng sát thân Kãnh, vai khoác khăn choàng thổ cẩm mỏng thướt tha và tay đeo chiếc nhẫn bạc Sri đúc thủ công hình hoa mai.\"",
+      "am_thuc": "\"Chúng tôi có món Cà đắng da trâu, nhắm cùng rượu cần thì tuyệt hảo.\"",
+      "phong_tuc": "\"Người Chu Ru theo chế độ mẫu hệ với tục 'Bắt chồng' vào nửa đêm độc đáo. Khi cô gái thích một chàng trai, nhà gái sẽ dắt người sang dạm hỏi lúc nửa đêm, nếu chàng trai đồng ý để cô gái đeo chiếc nhẫn bạc Sri vào tay thì hôn sự thành công.\"",
+      "chuyen_ke": "\"Thấy các cặp đôi yêu nhau trên cao nguyên hay bị chia rẽ do luật tục khắt khe, thần bảo hộ tình yêu Beli đã xuống trần dạy người Chu Ru cách dùng sáp ong mật tạo hình nhẫn, bọc đất sét rồi đổ bạc nấu chảy vào khuôn. Thần thổi hơi ấm vào nhẫn, khiến các cặp đôi khi đeo nó vào tay sẽ luôn chân thành và chung thủy bên nhau trọn đời.\""
+    },
+    "images": []
+  },
+  {
+    "id": "ro-mam",
+    "name": "Dân tộc Rơ Măm",
+    "mascot_intro": "\"Tôi là A Blong ở làng Le, tỉnh Kon Tum. Bộ tộc Rơ Măm chúng tôi tuy có dân số ít nhất Việt Nam, nhưng ngọn lửa văn hóa dưới mái nhà sàn chưa bao giờ tắt.\"",
+    "content": {
+      "trang_phuc": "\"Y phục của chúng tôi mang sắc chàm nguyên bản, hoa văn cực tối giản chỉ với các đường chỉ viền mảnh màu đỏ và trắng. Ngày thường nam đóng khố thô mộc, nữ mặc váy quấn ngắn ngang bắp chân. Khi mừng lúa mới, phụ nữ mặc áo dệt từ sợi bông rừng có sọc đỏ thẫm trước ngực, tai đeo khuyên ngà voi lớn Tơ-vơn làm căng rách cả thùy tai.\"",
+      "am_thuc": "\"Món ăn quý giá của buôn làng là Cá suối nướng úp lá chuối rừng. Cá bống tươi bắt từ suối sâu được băm nhỏ với kiệu rừng, ớt xiêm, muối hạt rồi gói chặt trong nhiều lớp lá chuối đem vùi than hồng, giữ trọn vị ngọt khô ráo.\"",
+      "phong_tuc": "\"Chúng tôi lưu giữ tục Lễ cúng Mở cửa kho lúa.Sau lễ cúng, các gia đình mới được phép lấy lúa ra để sử dụng hàng ngày trong cuộc sống \"",
+      "chuyen_ke": "\"Ngày xưa rừng già có loài quỷ răng dài chuyên đi bắt những người có răng trắng tai nhỏ để ăn thịt. Thần Rừng hiện về trong giấc mơ dạy người Rơ Măm cách mài răng cho phẳng, dùng ống tre căng tai thật to để trông đáng sợ như thần linh, khiến lũ quỷ kinh hãi chạy mất và không dám bén mảng tới nữa.\""
+    },
+    "images": []
+  },
+  {
+    "id": "brau",
+    "name": "Dân tộc Brâu",
+    "mascot_intro": "\"Ta là già làng Thao Nương ở vùng ngã ba Đông Dương. Dân tộc Brâu ta thanh vắng như tiếng lá rụng trong rừng sâu, hãy ngồi bên hiên nhà sàn nghe ta kể sử thi tộc mình.\"",
+    "content": {
+      "trang_phuc": "\"Chúng ta mặc vải chàm đen thô mộc, hoa văn thưa thớt bằng các sọc đỏ, vàng ngang thân váy. Ngày thường nữ quấn váy dài mắt cá, thân trên để trần hoặc mặc yếm ngắn. Ngày hội lớn, đàn ông khoác tấm choàng chéo thân cài lông chim trĩ quý hiếm, phụ nữ diện váy đính hạt cườm quanh hông, đeo khuyên tai vòng bạc lớn rủ xuống vai.\"",
+      "am_thuc": "\"Món ăn độc đáo của chúng ta là Nu-pà – thịt lợn cỏ băm nhuyễn với muối, gừng rừng, lá é, ớt, gói chặt bằng lá dong rồi vùi sâu vào bếp tro nóng cho đến khi tỏa mùi thơm nức.\"",
+      "phong_tuc": "\"Chúng tôi quan niệm rằng, lỗ tai càng căng rộng càng được người bạn tình ưa thích và dễ có người yêu. .\"",
+      "chuyen_ke": "\"Trận lụt lớn ngày xưa nhấn chìm mặt đất, chỉ còn đôi vợ chồng Brâu sống sót nhờ trốn trong trống gỗ. Quá cô quạnh, thần linh đã thả xuống bộ chiêng Tha. Khi họ gõ vào, tiếng chiêng vang lên ai oán như tiếng khóc gọi đồng loại, khiến muông thú quay về, hồi sinh lại tộc Brâu chúng ta.\""
+    },
+    "images": []
+  },
+  {
+    "id": "xtieng",
+    "name": "Dân tộc Xtiêng",
+    "mascot_intro": "\"Tôi là Điểu Giang, người con trai Xtiêng sinh trưởng giữa rẫy điều ngút ngàn của tỉnh Bình Phước. Dân tộc chúng tôi kiên cường như cây xà nu, có tiếng cồng chiêng đón mùa và đôi tay dệt thổ cẩm trứ danh.\"",
+    "content": {
+      "trang_phuc": "\"Y phục người Xtiêng mang màu đen, chàm sẫm, nổi bật với hoa văn răng cưa sọc đỏ, trắng, xanh da trời mạnh mẽ. Ngày thường nam đóng khố dài có tua rua, nữ mặc váy quấn ngắn quá đầu gối một chút để tiện làm rẫy, tay đeo vòng đồng quấn thành nhiều vòng lò xo độc đáo.\"",
+      "am_thuc": "\"Món ăn biểu tượng của chúng tôi là món thịt muối và mắm bò hóc. Chỉ cần thử một lần, bạn sẽ cảm nhận được đặc trưng riêng biệt của đồng bào S’tiêng. .\"",
+      "phong_tuc": "\" Các vật phẩm sử dụng làm sính lễ thường được người XTiêng ấn định gồm: Tố, Ché, Xà lung, Lao đâm trâu, Xà gạc, Gùi, Trâu, Heo, Gà và Rượu cần. \"",
+      "chuyen_ke": "\"Ngày xưa có hai anh em đi rừng gặp bão tuyết lạc đường, người em đói lả gục ngã. Người anh đã chặt bụi mây đầy gai lấy đọt non mút nước ngọt cứu em. Vị đắng chát ban đầu nhưng ngọt hậu về sau của đọt mây giúp cả hai tỉnh táo sống sót, từ đó đọt mây trở thành biểu tượng của sự sum họp gia đình hoạn nạn có nhau.\""
+    },
+    "images": []
+  },
+  {
+    "id": "co",
+    "name": "Dân tộc Co",
+    "mascot_intro": "Khi sương sớm còn phủ trên những sườn núi Trường Sơn, bản làng người Co đã bắt đầu thức dậy. Khói bếp bay lên từ những mái nhà, tiếng người gọi nhau ra rẫy hòa cùng tiếng chim rừng. Với người Co, núi rừng không chỉ là nơi ở mà còn như một người bạn lớn: cho họ nương rẫy, con suối, măng rừng, cá suối và những câu chuyện được ông bà truyền lại qua nhiều thế hệ.",
+    "content": {
+      "trang_phuc": "Ngày thường, người Co xưa mặc trang phục khá giản dị để tiện đi rẫy. Đàn ông thường đóng khố, để trần hoặc mặc áo ngắn. Phụ nữ mặc váy quấn, áo ngắn; vải chủ yếu do gia đình tự dệt từ sợi bông. Những tấm vải truyền thống thường có nền tối, nhất là màu đen hoặc chàm. Trên đó nổi bật những đường hoa văn đỏ, trắng, vàng. Màu sắc ấy khiến trang phục giống như mang theo cả núi rừng: màu đen của đất, màu đỏ của lửa bếp, màu trắng của mây và màu vàng của nắng. Vào ngày hội, ngày cưới hay lễ cúng lớn, trang phục được chuẩn bị kỹ hơn. Phụ nữ đeo vòng cổ, vòng tay, vòng chân bằng đồng hoặc hạt cườm; có người còn đội khăn hoặc trang trí tóc. Đàn ông cũng có thể đeo vòng, mang dao bên mình. Những món phụ kiện ấy không chỉ để làm đẹp mà còn thể hiện sự trân trọng đối với cộng đồng và nghi lễ.",
+      "am_thuc": "Bữa cơm của người Co gắn với nương rẫy. Cơm được nấu từ lúa rẫy, đôi khi là cơm lam trong ống tre. Trên mâm cơm có rau rừng, măng, cá suối, thịt săn bắt hoặc thịt nuôi trong nhà. Món ăn thường không cầu kỳ, nhưng mang vị thơm của lửa, của tre và của núi rừng. Trong những dịp vui của làng, mọi người quây quần bên ché rượu cần. Rượu được ủ từ gạo, ngô hoặc sắn, rồi cùng uống bằng những cần dài...",
+      "phong_tuc": "",
+      "chuyen_ke": ""
+    },
+    "images": []
+  }
+]
