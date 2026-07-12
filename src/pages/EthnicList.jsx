@@ -50,7 +50,7 @@ const EthnicList = () => {
               {/* Thumbnail (Sử dụng ảnh mascot) */}
               <div className="w-full aspect-[4/3] bg-gray-50 flex items-center justify-center overflow-hidden">
                 <ThumbnailWithFallback 
-                  src={`/images/${ethnic.id}/mascot.png`}
+                  src={`/images/${ethnic.id}/${ethnic.images?.mascot || 'mascot.png'}`}
                   alt={`Mascot ${ethnic.name}`}
                   fallbackText="Thiếu ảnh Mascot"
                 />

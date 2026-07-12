@@ -62,9 +62,9 @@ const EthnicDetail = () => {
           <div className="lg:col-span-4 flex flex-col items-center">
             <div className="bg-white rounded-2xl shadow-lg p-6 w-full sticky top-8">
               <div className="w-full aspect-square bg-white rounded-xl mb-6 flex items-center justify-center border-4 border-secondary border-dashed overflow-hidden">
-                {/* Gọi ảnh Mascot từ thư mục public/images/{id}/mascot.png */}
+                {/* Gọi ảnh Mascot từ thư mục public/images/{id}/... */}
                 <ImageWithFallback 
-                  src={`/images/${id}/mascot.png`}
+                  src={`/images/${id}/${ethnicData.images?.mascot || 'mascot.png'}`}
                   alt={`Mascot ${ethnicData.name}`}
                   fallbackText="Thiếu ảnh Mascot"
                   className="w-full h-full"
@@ -95,20 +95,22 @@ const EthnicDetail = () => {
 
                 {/* Images Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  {[1, 2, 3].map(imgIndex => (
-                    <div key={imgIndex} className="group cursor-pointer flex flex-col">
-                      <div className="w-full aspect-[4/3] bg-gray-100 rounded-lg shadow-inner overflow-hidden flex items-center justify-center transition-transform transform group-hover:scale-105 duration-300">
-                        {/* Gọi ảnh Nội dung từ thư mục public/images/{id}/{chuyên-mục}_{index}.jpg */}
-                        <ImageWithFallback 
-                          src={`/images/${id}/${section.key}_${imgIndex}.jpg`}
-                          alt={`${section.title} ${imgIndex}`}
-                          fallbackText={`Thiếu ảnh ${section.key}_${imgIndex}.jpg`}
-                          className="w-full h-full"
-                        />
+                  {[1, 2, 3].map(imgIndex => {
+                    const imageName = ethnicData.images?.[section.key]?.[imgIndex - 1] || `${section.key}_${imgIndex}.jpg`;
+                    return (
+                      <div key={imgIndex} className="group cursor-pointer flex flex-col">
+                        <div className="w-full aspect-[4/3] bg-gray-100 rounded-lg shadow-inner overflow-hidden flex items-center justify-center transition-transform transform group-hover:scale-105 duration-300">
+                          <ImageWithFallback 
+                            src={`/images/${id}/${imageName}`}
+                            alt={`${section.title} ${imgIndex}`}
+                            fallbackText={`Thiếu ảnh ${imageName}`}
+                            className="w-full h-full"
+                          />
+                        </div>
+                        <p className="text-sm text-gray-500 mt-3 text-center italic">Trích nguồn: ...</p>
                       </div>
-                      <p className="text-sm text-gray-500 mt-3 text-center italic">Trích nguồn: ...</p>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </section>
             ))}
