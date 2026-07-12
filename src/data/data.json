@@ -228,17 +228,5 @@
     "images": {
       "mascot": "mascot.jpg"
     }
-  },
-  {
-    "id": "test",
-    "name": "Test",
-    "mascot_intro": "Hello - test",
-    "images": {},
-    "content": {
-      "trang_phuc": "Trang phục detail",
-      "am_thuc": "Ẩm thực tailde",
-      "phong_tuc": "Phong tục 123123123",
-      "chuyen_ke": "Kể chuyện"
-    }
   }
 ]
