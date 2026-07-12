@@ -43,7 +43,7 @@ const AdminLogin = () => {
 };
 
 const AdminLayout = () => {
-  const { isLogged, logout, totalChanges, publishChanges } = useAdmin();
+  const { isLogged, logout, totalChanges, publishChanges, isPublishing } = useAdmin();
   const navigate = useNavigate();
 
   if (!isLogged) {
@@ -69,15 +69,15 @@ const AdminLayout = () => {
           
           <button 
             onClick={publishChanges}
-            disabled={changesCount === 0}
+            disabled={changesCount === 0 || isPublishing}
             className={`flex items-center gap-2 px-4 py-2 rounded-lg font-bold transition-all ${
-              changesCount > 0 
+              changesCount > 0 && !isPublishing
               ? 'bg-blue-600 hover:bg-blue-500 text-white shadow-lg transform hover:scale-105' 
               : 'bg-gray-700 text-gray-400 cursor-not-allowed'
             }`}
           >
             <Save size={18} />
-            Publish lên Github
+            {isPublishing ? 'Đang Publish...' : 'Publish lên Github'}
             {changesCount > 0 && (
               <span className="bg-white text-blue-600 text-xs px-2 py-0.5 rounded-full ml-2">
                 {changesCount} thay đổi

@@ -14,15 +14,17 @@ export const createGitHubClient = (token) => {
  * @param {string} message 
  */
 export const commitChanges = async (octokit, owner, repo, branch, files, message) => {
-  // 1. Get current commit object
+  // 1. Get current commit object (Bypass cache)
   const { data: refData } = await octokit.git.getRef({
-    owner, repo, ref: `heads/${branch}`
+    owner, repo, ref: `heads/${branch}`,
+    headers: { 'If-None-Match': '', 'Cache-Control': 'no-cache' }
   });
   const currentCommitSha = refData.object.sha;
 
   // 2. Get the tree of that commit
   const { data: commitData } = await octokit.git.getCommit({
-    owner, repo, commit_sha: currentCommitSha
+    owner, repo, commit_sha: currentCommitSha,
+    headers: { 'If-None-Match': '', 'Cache-Control': 'no-cache' }
   });
   const currentTreeSha = commitData.tree.sha;
 

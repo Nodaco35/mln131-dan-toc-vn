@@ -18,6 +18,7 @@ export const AdminProvider = ({ children }) => {
   // Format: { path: "public/images/xinh-mun/mascot.png", content: "base64...", isBase64: true }
   const [pendingFiles, setPendingFiles] = useState([]);
   const [deletedFiles, setDeletedFiles] = useState([]);
+  const [isPublishing, setIsPublishing] = useState(false);
 
   // Hàm tiện ích: Lưu Token
   const login = (newToken) => {
@@ -110,6 +111,7 @@ export const AdminProvider = ({ children }) => {
 
   // Thực thi Batch Commit
   const publishChanges = async () => {
+    if (isPublishing) return;
     if (!token) {
       toast.error('Bạn cần nhập Github Token!');
       return;
@@ -122,6 +124,7 @@ export const AdminProvider = ({ children }) => {
     }
 
     const loadingToast = toast.loading('Đang gom dữ liệu và gửi lên Github...');
+    setIsPublishing(true);
     
     try {
       const octokit = createGitHubClient(token);
@@ -162,6 +165,8 @@ export const AdminProvider = ({ children }) => {
     } catch (error) {
       console.error(error);
       toast.error('Publish thất bại: ' + error.message, { id: loadingToast });
+    } finally {
+      setIsPublishing(false);
     }
   };
 
@@ -169,7 +174,7 @@ export const AdminProvider = ({ children }) => {
     <AdminContext.Provider value={{
       token, isLogged, login, logout,
       ethnicData, updateEthnicText, addPendingImage, addEthnic, deleteEthnic,
-      pendingFiles, totalChanges, publishChanges
+      pendingFiles, totalChanges, publishChanges, isPublishing
     }}>
       {children}
     </AdminContext.Provider>
