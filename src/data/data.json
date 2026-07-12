@@ -225,6 +225,8 @@
       "phong_tuc": "",
       "chuyen_ke": ""
     },
-    "images": []
+    "images": {
+      "mascot": "mascot.jpg"
+    }
   }
 ]
