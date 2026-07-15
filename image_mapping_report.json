@@ -1,0 +1,589 @@
+[
+  {
+    "originalFolder": "05. Dân tộc Khơ Mú",
+    "matchedId": "kho-mu",
+    "matchedName": "Dân tộc Khơ Mú",
+    "fileCount": 5,
+    "files": [
+      "KM_buitoc.jpg",
+      "KM_hoicaumua.jpg",
+      "KM_mamcom.png",
+      "KM_sutichquabau.png",
+      "KM_trangphucnu.jpg"
+    ]
+  },
+  {
+    "originalFolder": "06. Dân tộc Hà Nhì",
+    "matchedId": "ha-nhi",
+    "matchedName": "Dân tộc Hà Nhì",
+    "fileCount": 6,
+    "files": [
+      "HN_bia.webp",
+      "HN_hoikhogiagia.jpg",
+      "HN_loncapnach.webp",
+      "HN_nha.jpg",
+      "HN_trangphucden.jpg",
+      "HN_trangphuchoa.jpg"
+    ]
+  },
+  {
+    "originalFolder": "07. Dân tộc Lào",
+    "matchedId": "lao",
+    "matchedName": "Dân tộc Lào",
+    "fileCount": 3,
+    "files": [
+      "Lao_mua.jpg",
+      "Lao_trangphucnam.avif",
+      "Lao_trangphucnu.jpg"
+    ]
+  },
+  {
+    "originalFolder": "08. Dân tộc Kháng",
+    "matchedId": "khang",
+    "matchedName": "Dân tộc Kháng",
+    "fileCount": 2,
+    "files": [
+      "108874-Article Text-220059-1-10-20250228.pdf",
+      "Khang_trangphuc.jpeg"
+    ]
+  },
+  {
+    "originalFolder": "1. Dân tộc Thái",
+    "matchedId": "thai",
+    "matchedName": "Dân tộc Thái",
+    "fileCount": 5,
+    "files": [
+      "Thai_hoaban.jpg",
+      "Thai_muaxoe.jpg",
+      "Thai_paninhtop.webp",
+      "Thai_trangphucnam.jfif",
+      "Thai_trangphucnu.jpg"
+    ]
+  },
+  {
+    "originalFolder": "2. Dân tộc Mường",
+    "matchedId": "muong",
+    "matchedName": "Dân tộc Mường",
+    "fileCount": 4,
+    "files": [
+      "Muong1-trangphucnu.jpg",
+      "Muong_cola.jpg",
+      "Muong_hoisacbua.png",
+      "Muong_trangphucnam.jpg"
+    ]
+  },
+  {
+    "originalFolder": "3. Dân tộc H_Mông",
+    "matchedId": "mong",
+    "matchedName": "Dân tộc Mông (H'Mông)",
+    "fileCount": 10,
+    "files": [
+      "Mong_hoigautao.jpg",
+      "Mong_keovo.jpg",
+      "Mong_menmen.png",
+      "Mong_muakhen.jpg",
+      "Mong_thangco.png",
+      "Mong_trangphucCuoihoi.jpg",
+      "Mong_trangphucDen.jpg",
+      "Mong_trangphucHoa.jpg",
+      "Mong_trangphucTrang.jpg",
+      "Mong_trangphucXanh.jpg"
+    ]
+  },
+  {
+    "originalFolder": "4. Dân tộc Dao",
+    "matchedId": "dao",
+    "matchedName": "Dân tộc Dao",
+    "fileCount": 6,
+    "files": [
+      "Dao_banhchungden.jpg",
+      "Dao_banhgu.jpg",
+      "Dao_lecapsac.png",
+      "Dao_trangphuccuoi.jpg",
+      "Dao_trangphucnu.jpg",
+      "Dao_xoisan.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Ba Na",
+    "matchedId": "ba-na",
+    "matchedName": "Dân tộc Ba Na",
+    "fileCount": 1,
+    "files": [
+      "trang phục.png"
+    ]
+  },
+  {
+    "originalFolder": "dân tộc BRau",
+    "matchedId": "brau",
+    "matchedName": "Dân tộc Brâu",
+    "fileCount": 4,
+    "files": [
+      "am-thuc-BRau.png",
+      "phong-tuc-BRau.jpg",
+      "trang-phuc-BRau1.jpg",
+      "trang-phuc-BRau2.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Bố Y",
+    "matchedId": "bo-y",
+    "matchedName": "Dân tộc Bố Y",
+    "fileCount": 3,
+    "files": [
+      "phongtuc(1).jpg",
+      "phongtuc.jpg",
+      "trangphuc.jpg"
+    ]
+  },
+  {
+    "originalFolder": "dân tộc Chu Ru",
+    "matchedId": "chu-ru",
+    "matchedName": "Dân tộc Chu Ru",
+    "fileCount": 3,
+    "files": [
+      "am-thuc-ChuRu.jpg",
+      "phong-tuc-ChuRu.png",
+      "trang-phuc-ChuRu.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Chơ Ro",
+    "matchedId": "cho-ro",
+    "matchedName": "Dân tộc Chơ Ro",
+    "fileCount": 8,
+    "files": [
+      "choro_am_thuc_1.jpg",
+      "choro_am_thuc_2.jpg",
+      "choro_am_thuc_3.jpg",
+      "choro_chuyen_ke_1.jpg",
+      "choro_phong_tuc_1.jpg",
+      "choro_phong_tuc_2.jpg",
+      "choro_phong_tuc_3.jpg",
+      "choro_trang_phuc_1.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc co",
+    "matchedId": "co-lao",
+    "matchedName": "Dân tộc Cờ Lao",
+    "fileCount": 3,
+    "files": [
+      "Phong tục.png",
+      "Trang phục.webp",
+      "ẩm thực.png"
+    ]
+  },
+  {
+    "originalFolder": "dân tộc Cơ Ho",
+    "matchedId": "co",
+    "matchedName": "Dân tộc Co",
+    "fileCount": 3,
+    "files": [
+      "phong-tuc-Coho.jpg",
+      "trang-phuc-Coho.jpg",
+      "truyen-chuyen-mieng-Coho.webp"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Cống",
+    "matchedId": "co",
+    "matchedName": "Dân tộc Co",
+    "fileCount": 6,
+    "files": [
+      "cong_am_thuc_1.jpg",
+      "cong_am_thuc_2.jpg",
+      "cong_phong_tuc_1.jpg",
+      "cong_phong_tuc_2.jpg",
+      "cong_trang_phuc_1.jpg",
+      "cong_trang_phuc_2.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Cờ Lao",
+    "matchedId": "lao",
+    "matchedName": "Dân tộc Lào",
+    "fileCount": 3,
+    "files": [
+      "phongtuc(1).jpg",
+      "phongtuc.jpg",
+      "trangphuc.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Gia Rai",
+    "matchedId": "gia-rai",
+    "matchedName": "Dân tộc Gia Rai",
+    "fileCount": 2,
+    "files": [
+      "trang phục.png",
+      "ẩm thực.png"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Giáy",
+    "matchedId": "giay",
+    "matchedName": "Dân tộc Giáy",
+    "fileCount": 3,
+    "files": [
+      "phongtuc.webp",
+      "trangphuc(1).jpg",
+      "trangphuc.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Giể Triêng",
+    "matchedId": "gie-trieng",
+    "matchedName": "Dân tộc Giẻ Triêng",
+    "fileCount": 2,
+    "files": [
+      "trang phục.png",
+      "ẩm thục.png"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Hoa",
+    "matchedId": "hoa",
+    "matchedName": "Dân tộc Hoa",
+    "fileCount": 13,
+    "files": [
+      "am-thuc-vit-quay-bac-kinh-Hoa.jpg",
+      "hoa_am_thuc_1.jpg",
+      "hoa_am_thuc_2.jpg",
+      "hoa_am_thuc_3.jpg",
+      "hoa_chuyen_ke_1.jpg",
+      "hoa_phong_tuc_1.jpg",
+      "hoa_phong_tuc_2.jpg",
+      "hoa_phong_tuc_3.jpg",
+      "hoa_trang_phuc_1.jpg",
+      "hoa_trang_phuc_2.jpg",
+      "hoa_trang_phuc_3.jpg",
+      "phong-tuc-Hoa.jpg",
+      "trang-phuc-Hoaa.png"
+    ]
+  },
+  {
+    "originalFolder": "dân tộc Khmer",
+    "matchedId": "khmer",
+    "matchedName": "Dân tộc Khmer",
+    "fileCount": 13,
+    "files": [
+      "am-thuc-Khmer.jpg",
+      "am-thuc-Khmer2.png",
+      "khmer_am_thuc_1(1).jpg",
+      "khmer_am_thuc_1.jpg",
+      "khmer_am_thuc_2.jpg",
+      "khmer_chuyen_ke_1.jpg",
+      "khmer_phong_tuc_1.jpg",
+      "khmer_trang_phuc_1.jpg",
+      "khmer_trang_phuc_2.jpg",
+      "khmer_trang_phuc_3.jpg",
+      "phong-tuc-Khmer.jpg",
+      "trang-phuc-Khmer1.png",
+      "trang-phuc-Khmer2.png"
+    ]
+  },
+  {
+    "originalFolder": "dân tộc kinh",
+    "matchedId": "UNMATCHED",
+    "matchedName": "UNMATCHED",
+    "fileCount": 7,
+    "files": [
+      "ẩm thực 1 (1).jpeg",
+      "ẩm thực.jpg",
+      "chuyện kể.webp",
+      "phong tục 1.jpg",
+      "phong tục 2.webp",
+      "trang phục .jpg",
+      "trang phục 1.webp"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc La Chí",
+    "matchedId": "la-chi",
+    "matchedName": "Dân tộc La Chí",
+    "fileCount": 3,
+    "files": [
+      "amthuc.jpg",
+      "phongtuc.webp",
+      "trangphuc.jpg"
+    ]
+  },
+  {
+    "originalFolder": "dân tộc la ha",
+    "matchedId": "la-ha",
+    "matchedName": "Dân tộc La Ha",
+    "fileCount": 8,
+    "files": [
+      "ẩm thực .jpg",
+      "chuyện kể.jpg",
+      "chuyện kể.webp",
+      "phong tục  (1).jpg",
+      "phong tục .jpg",
+      "trang phục .jpg",
+      "trang phục 1.jpg",
+      "trang phục 2.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc La Hủ",
+    "matchedId": "la-hu",
+    "matchedName": "Dân tộc La Hủ",
+    "fileCount": 6,
+    "files": [
+      "lahu_am_thuc_1.jpg",
+      "lahu_am_thuc_2.jpg",
+      "lahu_chuyen_ke_1.jpg",
+      "lahu_phong_tuc_1.jpg",
+      "lahu_trang_phuc_1.jpg",
+      "lahu_trang_phuc_2.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Lô Lô",
+    "matchedId": "lo-lo",
+    "matchedName": "Dân tộc Lô Lô",
+    "fileCount": 2,
+    "files": [
+      "amthuc.jpg",
+      "trangphuc.jpg"
+    ]
+  },
+  {
+    "originalFolder": "dân tộc lự",
+    "matchedId": "lu",
+    "matchedName": "Dân tộc Lự",
+    "fileCount": 7,
+    "files": [
+      "chuyện kể 1.jpg",
+      "chuyện kể.jpg",
+      "phong tục 1.jpg",
+      "phong tục 2.jpg",
+      "trang phục .jpg",
+      "trang phục 1.jpg",
+      "trang phục 2.jpeg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Mnông",
+    "matchedId": "mnong",
+    "matchedName": "Dân tộc Mnông",
+    "fileCount": 1,
+    "files": [
+      "trang phục.png"
+    ]
+  },
+  {
+    "originalFolder": "dân tộc Mạ",
+    "matchedId": "ma",
+    "matchedName": "Dân tộc Mạ",
+    "fileCount": 4,
+    "files": [
+      "am-thuc-Ma1.jpg",
+      "am-thuc-Ma2.jpg",
+      "phong-tuc-Ma.avif",
+      "trang-phuc-.avif"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Mảng",
+    "matchedId": "mang",
+    "matchedName": "Dân tộc Mảng",
+    "fileCount": 6,
+    "files": [
+      "mang_am_thuc_1.jpg",
+      "mang_am_thuc_2.jpg",
+      "mang_phong_tuc_1.jpg",
+      "mang_phong_tuc_2.jpg",
+      "mang_trang_phuc_1.jpg",
+      "mang_trang_phuc_2.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Ngái",
+    "matchedId": "ngai",
+    "matchedName": "Dân tộc Ngái",
+    "fileCount": 5,
+    "files": [
+      "ngai_am_thuc_1.jpg",
+      "ngai_phong_tuc_1.jpg",
+      "ngai_trang_phuc_1.jpg",
+      "ngai_trang_phuc_2.jpg",
+      "ngai_trang_phuc_3.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc nùng",
+    "matchedId": "nung",
+    "matchedName": "Dân tộc Nùng",
+    "fileCount": 6,
+    "files": [
+      "IMG_5114.JPG",
+      "Phong tục(1).JPG",
+      "Phong tục.JPG",
+      "Trang phục.GIF",
+      "Trang phục.WEBP",
+      "Ẩm thực.JPG"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Phù Lá",
+    "matchedId": "phu-la",
+    "matchedName": "Dân tộc Phù Lá",
+    "fileCount": 4,
+    "files": [
+      "phula_am_thuc_1.jpg",
+      "phula_phong_tuc_1.jpg",
+      "phula_trang_phuc_1.jpg",
+      "phula_trang_phuc_2.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Pu Péo",
+    "matchedId": "pu-peo",
+    "matchedName": "Dân tộc Pu Péo",
+    "fileCount": 3,
+    "files": [
+      "phongtuc.jpg",
+      "trangphuc",
+      "trangphuc.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Pà Thẻn",
+    "matchedId": "pa-then",
+    "matchedName": "Dân tộc Pà Thẻn",
+    "fileCount": 9,
+    "files": [
+      "pathen_am_thuc_1.jpg",
+      "pathen_am_thuc_2.jpg",
+      "pathen_am_thuc_3.jpg",
+      "pathen_phong_tuc_1.jpg",
+      "pathen_phong_tuc_2.jpg",
+      "pathen_phong_tuc_3.jpg",
+      "pathen_trang_phuc_1.jpg",
+      "pathen_trang_phuc_2.jpg",
+      "pathen_trang_phuc_3.jpg"
+    ]
+  },
+  {
+    "originalFolder": "dân tộc Ra Glai",
+    "matchedId": "raglai",
+    "matchedName": "Dân tộc Ra Glai",
+    "fileCount": 2,
+    "files": [
+      "trang phục.png",
+      "ẩm thực_rượu.png"
+    ]
+  },
+  {
+    "originalFolder": "dân tộc Rơ Măm",
+    "matchedId": "ma",
+    "matchedName": "Dân tộc Mạ",
+    "fileCount": 3,
+    "files": [
+      "am-thuc-RoMam.png",
+      "phong-tuc-RoMam.png",
+      "trang-phuc-RoMam.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Si La",
+    "matchedId": "si-la",
+    "matchedName": "Dân tộc Si La",
+    "fileCount": 6,
+    "files": [
+      "sila_am_thuc_1.jpg",
+      "sila_am_thuc_2.jpg",
+      "sila_phong_tuc_1.jpg",
+      "sila_phong_tuc_2.jpg",
+      "sila_trang_phuc_1.jpg",
+      "sila_trang_phuc_2.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc sán chay",
+    "matchedId": "san-chay",
+    "matchedName": "Dân tộc Sán Chay (Cao Lan, Sán Chỉ)",
+    "fileCount": 7,
+    "files": [
+      "Chuyện kể.JPG",
+      "Phong tục.JPG",
+      "Phong tục.WEBP",
+      "Trang phục(1).JPG",
+      "Trang phục.JPG",
+      "Ẩm thực(1).JPG",
+      "Ẩm thực.JPG"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Sán Dìu",
+    "matchedId": "san-diu",
+    "matchedName": "Dân tộc Sán Dìu",
+    "fileCount": 3,
+    "files": [
+      "amthuc_SanDiu.jpg",
+      "phongtuc.jpg",
+      "trangphuc_SanDiu.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc tày",
+    "matchedId": "tay",
+    "matchedName": "Dân tộc Tày",
+    "fileCount": 6,
+    "files": [
+      "Chuyện kể.JPG",
+      "Phong tục(1).JPG",
+      "Phong tục.JPG",
+      "Trang phục(1).JPG",
+      "Trang phục.JPG",
+      "Ẩm thực.JPG"
+    ]
+  },
+  {
+    "originalFolder": "dân tộc xinh mun",
+    "matchedId": "xinh-mun",
+    "matchedName": "Dân tộc Xinh Mun",
+    "fileCount": 8,
+    "files": [
+      "chuyện kể .jpeg",
+      "chuyện kể.jpg",
+      "phong tục_(1).jpg",
+      "phong tục_.jpg",
+      "trang phục_(1).jpg",
+      "trang phục_.jpg",
+      "trang phục_.webp",
+      "ẩm thực_.jpg"
+    ]
+  },
+  {
+    "originalFolder": "dân tộc XTieng",
+    "matchedId": "xtieng",
+    "matchedName": "Dân tộc Xtiêng",
+    "fileCount": 3,
+    "files": [
+      "am-thuc-XTieng.jpg",
+      "phong-tuc-XTieng.jpg",
+      "trang-phuc-XTieng.jpg"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Xơ Đăng",
+    "matchedId": "xo-dang",
+    "matchedName": "Dân tộc Xơ Đăng",
+    "fileCount": 1,
+    "files": [
+      "trang phục.png"
+    ]
+  },
+  {
+    "originalFolder": "Dân tộc Ê ĐÊ",
+    "matchedId": "e-de",
+    "matchedName": "Dân tộc Ê Đê",
+    "fileCount": 1,
+    "files": [
+      "trang phục.png"
+    ]
+  }
+]

@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import toast from 'react-hot-toast';
 import { createGitHubClient, commitChanges } from '../services/githubApi';
-import originalData from '../data/data.json';
+import originalData from '../data/data2.json';
 
 const AdminContext = createContext();
 
@@ -135,7 +135,7 @@ export const AdminProvider = ({ children }) => {
       // Thêm data.json
       if (JSON.stringify(ethnicData) !== JSON.stringify(originalData)) {
         filesToCommit.push({
-          path: 'src/data/data.json',
+          path: 'src/data/data2.json',
           content: JSON.stringify(ethnicData, null, 2),
           isBase64: false
         });

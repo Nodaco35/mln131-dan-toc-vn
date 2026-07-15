@@ -1,29 +1,42 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import data from '../data/data.json';
+import data from '../data/data2.json';
 
-// Component hiển thị ảnh, nếu ảnh bị lỗi (chưa có) sẽ hiển thị khung báo lỗi thay thế
-const ImageWithFallback = ({ src, alt, fallbackText, className }) => {
+// Component thẻ ảnh có thể ẩn nếu bị lỗi
+const OptionalImageCard = ({ src, alt, caption }) => {
   const [error, setError] = useState(false);
 
-  if (error) {
-    return (
-      <div className={`bg-gray-100 flex flex-col items-center justify-center text-gray-400 italic text-sm border-2 border-dashed border-gray-300 ${className}`}>
-        <svg className="w-8 h-8 mb-2 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-        </svg>
-        <span className="px-2 text-center">{fallbackText}</span>
-      </div>
-    );
-  }
+  if (error) return null;
 
   return (
-    <img 
-      src={src} 
-      alt={alt} 
-      className={`object-cover ${className}`}
-      onError={() => setError(true)}
-    />
+    <div className="group cursor-pointer flex flex-col">
+      <div className="w-full aspect-[4/3] bg-gray-100 rounded-lg shadow-inner overflow-hidden flex items-center justify-center transition-transform transform group-hover:scale-105 duration-300">
+        <img 
+          src={src} 
+          alt={alt} 
+          className="w-full h-full object-cover"
+          onError={() => setError(true)}
+        />
+      </div>
+    </div>
+  );
+};
+
+// Component thẻ Mascot có thể ẩn nếu bị lỗi
+const OptionalMascot = ({ src, alt }) => {
+  const [error, setError] = useState(false);
+
+  if (error) return null;
+
+  return (
+    <div className="w-full aspect-square bg-white rounded-xl mb-6 flex items-center justify-center border-4 border-secondary border-dashed overflow-hidden">
+      <img 
+        src={src} 
+        alt={alt} 
+        className="w-full h-full object-cover"
+        onError={() => setError(true)}
+      />
+    </div>
   );
 };
 
@@ -61,15 +74,10 @@ const EthnicDetail = () => {
           {/* Cột trái: Mascot & Intro */}
           <div className="lg:col-span-4 flex flex-col items-center">
             <div className="bg-white rounded-2xl shadow-lg p-6 w-full sticky top-8">
-              <div className="w-full aspect-square bg-white rounded-xl mb-6 flex items-center justify-center border-4 border-secondary border-dashed overflow-hidden">
-                {/* Gọi ảnh Mascot từ thư mục public/images/{id}/... */}
-                <ImageWithFallback 
-                  src={`/images/${id}/${ethnicData.images?.mascot || 'mascot.png'}`}
-                  alt={`Mascot ${ethnicData.name}`}
-                  fallbackText="Thiếu ảnh Mascot"
-                  className="w-full h-full"
-                />
-              </div>
+              <OptionalMascot 
+                src={`/images/${id}/${ethnicData.images?.mascot || 'mascot.jpg'}`}
+                alt={`Mascot ${ethnicData.name}`}
+              />
               <div className="bg-orange-100 p-4 rounded-lg relative">
                 {/* Speech bubble arrow */}
                 <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-b-8 border-transparent border-b-orange-100"></div>
@@ -98,17 +106,11 @@ const EthnicDetail = () => {
                   {[1, 2, 3].map(imgIndex => {
                     const imageName = ethnicData.images?.[section.key]?.[imgIndex - 1] || `${section.key}_${imgIndex}.jpg`;
                     return (
-                      <div key={imgIndex} className="group cursor-pointer flex flex-col">
-                        <div className="w-full aspect-[4/3] bg-gray-100 rounded-lg shadow-inner overflow-hidden flex items-center justify-center transition-transform transform group-hover:scale-105 duration-300">
-                          <ImageWithFallback 
-                            src={`/images/${id}/${imageName}`}
-                            alt={`${section.title} ${imgIndex}`}
-                            fallbackText={`Thiếu ảnh ${imageName}`}
-                            className="w-full h-full"
-                          />
-                        </div>
-                        <p className="text-sm text-gray-500 mt-3 text-center italic">Trích nguồn: ...</p>
-                      </div>
+                      <OptionalImageCard 
+                        key={imgIndex}
+                        src={`/images/${id}/${imageName}`}
+                        alt={`${section.title} ${imgIndex}`}
+                      />
                     );
                   })}
                 </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import data from '../data/data.json';
+import data from '../data/data2.json';
 
 // Component fallback ảnh dành riêng cho danh sách
 const ThumbnailWithFallback = ({ src, alt, fallbackText }) => {
