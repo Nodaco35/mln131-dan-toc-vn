@@ -47,12 +47,12 @@ const EthnicList = () => {
               to={`/dan-toc/${ethnic.id}`}
               className="bg-white rounded-xl shadow hover:shadow-xl transition-shadow duration-300 overflow-hidden transform hover:-translate-y-1 border-b-4 border-secondary flex flex-col h-full"
             >
-              {/* Thumbnail (Sử dụng ảnh mascot) */}
+              {/* Thumbnail (Sử dụng ảnh trang phục làm đại diện) */}
               <div className="w-full aspect-[4/3] bg-gray-50 flex items-center justify-center overflow-hidden">
                 <ThumbnailWithFallback 
-                  src={`/images/${ethnic.id}/${ethnic.images?.mascot || 'mascot.png'}`}
-                  alt={`Mascot ${ethnic.name}`}
-                  fallbackText="Thiếu ảnh Mascot"
+                  src={`/images/${ethnic.id}/trang_phuc_1.jpg`}
+                  alt={`Ảnh đại diện ${ethnic.name}`}
+                  fallbackText="Thiếu ảnh đại diện"
                 />
               </div>
               
