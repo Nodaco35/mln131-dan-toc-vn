@@ -128,6 +128,18 @@ const EthnicList = () => {
     return false;
   });
 
+  // Sync Dark Mode to HTML element and localStorage
+  useEffect(() => {
+    const root = window.document.documentElement;
+    if (darkMode) {
+      root.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      root.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
+  }, [darkMode]);
+
   // State Trắc nghiệm
   const [quizOpen, setQuizOpen] = useState(false);
   const [quizQuestion, setQuizQuestion] = useState(null);
@@ -244,7 +256,7 @@ const EthnicList = () => {
   });
 
   return (
-    <div className="min-h-screen bg-bg-site font-sans text-text-main transition-colors duration-300 relative overflow-hidden pb-20">
+    <div className="min-h-screen bg-bg-site font-sans text-text-main transition-colors duration-300 relative overflow-x-clip pb-20">
       {/* Nền hoa văn truyền thống */}
       <div className="absolute inset-0 bg-ethnic-pattern pointer-events-none"></div>
 
