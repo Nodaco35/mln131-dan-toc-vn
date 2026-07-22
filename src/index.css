@@ -1,6 +1,124 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #8B4513;
-  --color-secondary: #DAA520;
+  --font-serif: "Lora", Georgia, serif;
+  --font-sans: "Comfortaa", system-ui, sans-serif;
+  --font-rigid: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-cursive: "Dancing Script", cursive;
+  
+  --color-primary: var(--color-primary-val);
+  --color-secondary: var(--color-secondary-val);
+  --color-bg-site: var(--color-bg-site-val);
+  --color-text-main: var(--color-text-main-val);
+  --color-text-muted: var(--color-text-muted-val);
+  --color-card-bg: var(--color-card-bg-val);
+  --color-card-border: var(--color-card-border-val);
+  --color-accent-glow: var(--color-accent-glow-val);
+}
+
+:root {
+  --color-primary-val: #9a3412; /* Rich terracotta */
+  --color-secondary-val: #b45309; /* Warm gold */
+  --color-bg-site-val: #fdfaf6; /* Classic parchment */
+  --color-text-main-val: #1f2937; /* Dark slate */
+  --color-text-muted-val: #4b5563; /* Muted gray */
+  --color-card-bg-val: rgba(255, 255, 255, 0.85); /* Glassmorphism light */
+  --color-card-border-val: #f1f5f9;
+  --color-accent-glow-val: rgba(245, 158, 11, 0.15);
+}
+
+html.dark {
+  --color-primary-val: #f59e0b; /* Bright amber */
+  --color-secondary-val: #10b981; /* Emerald accent */
+  --color-bg-site-val: #0b0f19; /* Museum dark deep blue/black */
+  --color-text-main-val: #f3f4f6; /* Off-white */
+  --color-text-muted-val: #9ca3af; /* Light muted gray */
+  --color-card-bg-val: rgba(17, 24, 39, 0.75); /* Glassmorphism dark */
+  --color-card-border-val: #1f2937;
+  --color-accent-glow-val: rgba(16, 185, 129, 0.2);
+}
+
+/* Base Body Styles */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-site-val);
+  color: var(--color-text-main-val);
+  font-size: 1.075rem;
+  line-height: 1.8;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-site-val);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary-val);
+  border-radius: 5px;
+  border: 2px solid var(--color-bg-site-val);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-secondary-val);
+}
+
+/* Traditional Motif Pattern */
+.bg-ethnic-pattern {
+  background-image: radial-gradient(var(--color-primary-val) 0.5px, transparent 0.5px), radial-gradient(var(--color-primary-val) 0.5px, var(--color-bg-site-val) 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  opacity: 0.05;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 6s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 8s ease-in-out infinite;
+}
+
+/* Custom Typographic Utilities */
+.font-display {
+  font-family: var(--font-serif);
+}
+
+/* Typewriter animation */
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+.typewriter-cursor {
+  border-right: 2px solid var(--color-primary-val);
+  animation: blink 0.75s step-end infinite;
 }
