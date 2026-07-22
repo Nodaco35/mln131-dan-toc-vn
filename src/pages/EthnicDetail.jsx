@@ -4,7 +4,38 @@ import {
   ArrowLeft, Shirt, Utensils, Users, BookOpen, 
   Sparkles, Compass, ZoomIn, X, ChevronLeft, ChevronRight, HelpCircle
 } from 'lucide-react';
+import { motion } from 'framer-motion';
 import data from '../data/data2.json';
+
+// Variants cho framer-motion (Hiệu ứng mượt mà, chuyên nghiệp)
+const elegantReveal = {
+  hidden: { opacity: 0, y: 40 },
+  show: { 
+    opacity: 1, 
+    y: 0, 
+    transition: { type: 'tween', ease: 'easeOut', duration: 0.8 } 
+  }
+};
+
+const staggerImages = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.15,
+      delayChildren: 0.2
+    }
+  }
+};
+
+const elegantPopIn = {
+  hidden: { opacity: 0, y: 20 },
+  show: { 
+    opacity: 1, 
+    y: 0,
+    transition: { type: 'tween', ease: 'easeOut', duration: 0.6 } 
+  }
+};
 
 // Bản đồ vùng miền cố định của 54 dân tộc
 const REGION_MAPPING = {
@@ -190,7 +221,12 @@ const EthnicDetail = () => {
       <div className="absolute inset-0 bg-ethnic-pattern pointer-events-none opacity-5"></div>
 
       {/* Header Banner */}
-      <header className="relative w-full overflow-hidden bg-linear-to-r from-primary to-orange-700 dark:from-slate-900 dark:to-orange-950/80 py-16 md:py-24 px-6 text-center text-white border-b-4 border-secondary shadow-md">
+      <motion.header 
+        initial={{ opacity: 0, y: -40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="relative w-full overflow-hidden bg-linear-to-r from-primary to-orange-700 dark:from-slate-900 dark:to-orange-950/80 py-16 md:py-24 px-6 text-center text-white border-b-4 border-secondary shadow-md"
+      >
         
         {/* Nút Quay Lại (Back Button) - Cải tiến theo yêu cầu người dùng */}
         <div className="absolute top-6 left-6 z-30">
@@ -219,7 +255,7 @@ const EthnicDetail = () => {
           </h1>
           <div className="w-24 h-1.5 bg-secondary mx-auto rounded-full mt-2"></div>
         </div>
-      </header>
+      </motion.header>
 
       {/* Main Layout */}
       <main className="max-w-5xl mx-auto px-6 md:px-12 pt-10 pb-16 relative z-10">
@@ -227,7 +263,14 @@ const EthnicDetail = () => {
         <div className="space-y-12">
           
           {/* Mascot Intro */}
-          <MascotIntro text={mascotText} ethnicName={ethnicData.name.replace("Dân tộc ", "")} />
+          <motion.div 
+            variants={elegantReveal}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.2 }}
+          >
+            <MascotIntro text={mascotText} ethnicName={ethnicData.name.replace("Dân tộc ", "")} />
+          </motion.div>
 
           {/* Các chuyên mục văn hóa */}
           <div className="space-y-10">
@@ -239,7 +282,11 @@ const EthnicDetail = () => {
               if (!contentText || contentText.trim() === "" || contentText.includes("Không tìm thấy thông tin")) return null;
 
               return (
-                <section 
+                <motion.section 
+                  variants={elegantReveal}
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true, amount: 0.2 }}
                   key={section.key} 
                   className={`bg-card-bg border border-primary/5 rounded-3xl shadow-md p-6 md:p-8 border-l-4 transition-all duration-300 hover:shadow-lg ${section.color.split(" ")[0]}`}
                 >
@@ -259,20 +306,27 @@ const EthnicDetail = () => {
                   </p>
 
                   {/* Grid hình ảnh minh họa */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+                  <motion.div 
+                    variants={staggerImages}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.2 }}
+                    className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5"
+                  >
                     {[1, 2, 3].map(imgIndex => {
                       const imageName = ethnicData.images?.[section.key]?.[imgIndex - 1] || `${section.key}_${imgIndex}.jpg`;
                       return (
-                        <OptionalImageCard 
-                          key={imgIndex}
-                          src={`/images/${id}/${imageName}`}
-                          alt={`${section.title} ${imgIndex}`}
-                          onZoom={handleZoomImage}
-                        />
+                        <motion.div variants={elegantPopIn} key={imgIndex}>
+                          <OptionalImageCard 
+                            src={`/images/${id}/${imageName}`}
+                            alt={`${section.title} ${imgIndex}`}
+                            onZoom={handleZoomImage}
+                          />
+                        </motion.div>
                       );
                     })}
-                  </div>
-                </section>
+                  </motion.div>
+                </motion.section>
               );
             })}
           </div>

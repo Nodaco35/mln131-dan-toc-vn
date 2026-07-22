@@ -113,6 +113,14 @@ body {
   font-family: var(--font-serif);
 }
 
+.font-rigid {
+  font-family: var(--font-rigid);
+}
+
+.font-cursive {
+  font-family: var(--font-cursive);
+}
+
 /* Typewriter animation */
 @keyframes blink {
   50% { border-color: transparent }
