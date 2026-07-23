@@ -337,125 +337,6 @@ const ShowcaseFrame = ({ id }) => {
   );
 };
 
-// Component Thuyết Minh Tiếng Việt tự động (Audio Guide)
-const AudioGuideButton = ({ textToRead, label = "Nghe thuyết minh" }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [isPaused, setIsPaused] = useState(false);
-  const [synth, setSynth] = useState(null);
-
-  useEffect(() => {
-    if (typeof window !== "undefined" && window.speechSynthesis) {
-      setSynth(window.speechSynthesis);
-    }
-    return () => {
-      if (window.speechSynthesis) {
-        window.speechSynthesis.cancel();
-      }
-    };
-  }, []);
-
-  const cleanText = (rawText) => {
-    if (!rawText) return "";
-    return rawText.replace(/[#*`_\-\[\]()]/g, '').trim();
-  };
-
-  const handlePlayPause = (e) => {
-    e.stopPropagation();
-    if (!synth) return;
-
-    if (isPlaying) {
-      if (isPaused) {
-        synth.resume();
-        setIsPaused(false);
-      } else {
-        synth.pause();
-        setIsPaused(true);
-      }
-    } else {
-      synth.cancel();
-      const clean = cleanText(textToRead);
-      const newUtterance = new SpeechSynthesisUtterance(clean);
-      
-      const voices = synth.getVoices();
-      const viVoice = voices.find(voice => voice.lang.includes('vi') || voice.lang.includes('VI'));
-      if (viVoice) {
-        newUtterance.voice = viVoice;
-      }
-      newUtterance.rate = 0.95; 
-      
-      newUtterance.onend = () => {
-        setIsPlaying(false);
-        setIsPaused(false);
-      };
-      newUtterance.onerror = () => {
-        setIsPlaying(false);
-        setIsPaused(false);
-      };
-
-      synth.speak(newUtterance);
-      setIsPlaying(true);
-      setIsPaused(false);
-    }
-  };
-
-  const handleStop = (e) => {
-    e.stopPropagation();
-    if (synth) {
-      synth.cancel();
-      setIsPlaying(false);
-      setIsPaused(false);
-    }
-  };
-
-  if (!synth) return null;
-
-  return (
-    <div className="flex items-center gap-1.5 shrink-0 z-20">
-      <button
-        onClick={handlePlayPause}
-        className={`flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-extrabold transition-all shadow-sm hover:shadow-md active:scale-95 cursor-pointer ${
-          isPlaying 
-            ? (isPaused ? 'bg-amber-500 text-white' : 'bg-emerald-600 text-white')
-            : 'bg-primary/90 hover:bg-primary text-white'
-        }`}
-      >
-        {isPlaying ? (
-          isPaused ? (
-            <>
-              <Volume2 className="w-3.5 h-3.5" />
-              <span>Tiếp tục</span>
-            </>
-          ) : (
-            <>
-              <div className="flex gap-0.5 items-center h-3">
-                <div className="w-0.5 h-2.5 bg-white rounded-full animate-bounce"></div>
-                <div className="w-0.5 h-3 bg-white rounded-full animate-bounce [animation-delay:0.15s]"></div>
-                <div className="w-0.5 h-1.5 bg-white rounded-full animate-bounce [animation-delay:0.3s]"></div>
-              </div>
-              <span>Đang đọc...</span>
-            </>
-          )
-        ) : (
-          <>
-            <Volume2 className="w-3.5 h-3.5 text-amber-300" />
-            <span>{label}</span>
-          </>
-        )}
-      </button>
-
-      {isPlaying && (
-        <button
-          onClick={handleStop}
-          className="p-1.5 rounded-full bg-rose-600 hover:bg-rose-700 text-white shadow-xs active:scale-95 transition-all cursor-pointer"
-          title="Dừng thuyết minh"
-        >
-          <VolumeX className="w-3.5 h-3.5" />
-        </button>
-      )}
-    </div>
-  );
-};
-
 // Component Thư viện ảnh tương tác nâng cao (Tích hợp hiệu ứng lướt ảnh Cinematic)
 const InteractiveGallery = ({ id, sectionKey, sectionTitle, imagesList, onZoom }) => {
   const [validImages, setValidImages] = useState([]);
@@ -587,8 +468,6 @@ const MascotIntro = ({ text, ethnicName, tabKey }) => {
             </h4>
             <span className="animate-pulse w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
           </div>
-          
-          <AudioGuideButton textToRead={text} label="Nghe sứ giả chào hỏi" />
         </div>
         <p className="text-base md:text-lg leading-relaxed text-text-main font-semibold italic typewriter-cursor pr-1 min-h-[60px]">
           "{displayedText}"
@@ -858,8 +737,6 @@ const EthnicDetail = () => {
                             {section.title}
                           </span>
                         </h2>
-                        
-                        <AudioGuideButton textToRead={contentText} label={`Nghe thuyết minh ${section.title.toLowerCase()}`} />
                       </div>
                       
                       {/* Nội dung chi tiết */}
