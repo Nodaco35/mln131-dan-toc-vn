@@ -536,7 +536,12 @@ const EthnicDetail = () => {
       root.classList.remove('dark');
     }
     window.scrollTo(0, 0);
-  }, [id]);
+    
+    if (ethnicData) {
+      const region = REGION_MAPPING[id] || "Chưa xác định";
+      document.title = `${ethnicData.name} - ${region}`;
+    }
+  }, [id, ethnicData]);
 
   if (!ethnicData) {
     return (

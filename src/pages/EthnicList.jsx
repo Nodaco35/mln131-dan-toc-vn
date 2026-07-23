@@ -105,6 +105,9 @@ const EthnicList = () => {
       root.classList.remove("dark");
       localStorage.setItem("theme", "light");
     }
+    
+    // Đặt lại tiêu đề trang chủ
+    document.title = "Di Sản 54 Dân Tộc Việt Nam - Sắc Màu Văn Hóa";
   }, [darkMode]);
 
   // State Trắc nghiệm
