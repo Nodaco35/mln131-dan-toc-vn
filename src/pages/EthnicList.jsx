@@ -293,7 +293,7 @@ const EthnicList = () => {
 
           <h1 className="text-5xl md:text-7xl text-white tracking-wide leading-tight mb-4 drop-shadow-lg">
             <span className="font-rigid font-extrabold uppercase">
-              Sắc Mầu Văn Hóa
+              Sắc Màu Văn Hóa
             </span>{" "}
             <br />
             <span className="text-transparent bg-clip-text bg-linear-to-r from-amber-200 to-orange-400 font-cursive text-6xl md:text-[5.5rem] font-bold mt-2 inline-block leading-normal py-2 drop-shadow-xl">
