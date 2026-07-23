@@ -1,6 +1,6 @@
 import React from 'react';
 
-const REGIONS = ['Tất cả', 'Tây Bắc', 'Đông Bắc', 'Trường Sơn - Tây Nguyên', 'Đồng bằng & Nam Bộ'];
+const REGIONS = ['Tất cả', 'Tây Bắc Bộ', 'Đông Bắc Bộ & ĐB Sông Hồng', 'Bắc Trung Bộ & Duyên hải miền Trung', 'Tây Nguyên', 'Tây Nam Bộ & Các dân tộc có dân số cực ít'];
 
 const RegionFilter = ({ selectedRegion, onSelectRegion }) => {
   return (

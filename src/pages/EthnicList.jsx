@@ -18,67 +18,34 @@ import RegionFilter from "../components/RegionFilter";
 
 // Bản đồ vùng miền cố định của 54 dân tộc
 const REGION_MAPPING = {
-  // Tây Bắc (17)
-  thai: "Tây Bắc",
-  muong: "Tây Bắc",
-  mong: "Tây Bắc",
-  "kho-mu": "Tây Bắc",
-  "ha-nhi": "Tây Bắc",
-  lao: "Tây Bắc",
-  khang: "Tây Bắc",
-  "xinh-mun": "Tây Bắc",
-  "la-ha": "Tây Bắc",
-  lu: "Tây Bắc",
-  giay: "Tây Bắc",
-  "phu-la": "Tây Bắc",
-  "la-hu": "Tây Bắc",
-  mang: "Tây Bắc",
-  cong: "Tây Bắc",
-  "si-la": "Tây Bắc",
-  "o-du": "Tây Bắc",
-
-  // Đông Bắc (12)
-  dao: "Đông Bắc",
-  tay: "Đông Bắc",
-  nung: "Đông Bắc",
-  "san-chay": "Đông Bắc",
-  "san-diu": "Đông Bắc",
-  "lo-lo": "Đông Bắc",
-  "bo-y": "Đông Bắc",
-  "co-lao": "Đông Bắc",
-  "la-chi": "Đông Bắc",
-  "pu-peo": "Đông Bắc",
-  ngai: "Đông Bắc",
-  "pa-then": "Đông Bắc",
-
-  // Trường Sơn - Tây Nguyên (19)
-  tho: "Trường Sơn - Tây Nguyên",
-  chut: "Trường Sơn - Tây Nguyên",
-  "bru-van-kieu": "Trường Sơn - Tây Nguyên",
-  "ta-oi": "Trường Sơn - Tây Nguyên",
-  "co-tu": "Trường Sơn - Tây Nguyên",
-  hre: "Trường Sơn - Tây Nguyên",
-  co: "Trường Sơn - Tây Nguyên",
-  raglai: "Trường Sơn - Tây Nguyên",
-  "gie-trieng": "Trường Sơn - Tây Nguyên",
-  "gia-rai": "Trường Sơn - Tây Nguyên",
-  "e-de": "Trường Sơn - Tây Nguyên",
-  "ba-na": "Trường Sơn - Tây Nguyên",
-  "xo-dang": "Trường Sơn - Tây Nguyên",
-  mnong: "Trường Sơn - Tây Nguyên",
-  "co-ho": "Trường Sơn - Tây Nguyên",
-  ma: "Trường Sơn - Tây Nguyên",
-  "chu-ru": "Trường Sơn - Tây Nguyên",
-  "ro-mam": "Trường Sơn - Tây Nguyên",
-  brau: "Trường Sơn - Tây Nguyên",
-
-  // Đồng bằng & Nam Bộ (6)
-  kinh: "Đồng bằng & Nam Bộ",
-  cham: "Đồng bằng & Nam Bộ",
-  khmer: "Đồng bằng & Nam Bộ",
-  hoa: "Đồng bằng & Nam Bộ",
-  "cho-ro": "Đồng bằng & Nam Bộ",
-  xtieng: "Đồng bằng & Nam Bộ",
+  // Tây Bắc Bộ (11)
+  "thai": "Tây Bắc Bộ", "muong": "Tây Bắc Bộ", "mong": "Tây Bắc Bộ", "dao": "Tây Bắc Bộ", "kho-mu": "Tây Bắc Bộ", 
+  "ha-nhi": "Tây Bắc Bộ", "lao": "Tây Bắc Bộ", "khang": "Tây Bắc Bộ", "xinh-mun": "Tây Bắc Bộ", "la-ha": "Tây Bắc Bộ", 
+  "lu": "Tây Bắc Bộ",
+  
+  // Đông Bắc Bộ & ĐB Sông Hồng (11)
+  "kinh": "Đông Bắc Bộ & ĐB Sông Hồng", "tay": "Đông Bắc Bộ & ĐB Sông Hồng", "nung": "Đông Bắc Bộ & ĐB Sông Hồng", 
+  "san-chay": "Đông Bắc Bộ & ĐB Sông Hồng", "san-diu": "Đông Bắc Bộ & ĐB Sông Hồng", "giay": "Đông Bắc Bộ & ĐB Sông Hồng", 
+  "lo-lo": "Đông Bắc Bộ & ĐB Sông Hồng", "bo-y": "Đông Bắc Bộ & ĐB Sông Hồng", "co-lao": "Đông Bắc Bộ & ĐB Sông Hồng", 
+  "la-chi": "Đông Bắc Bộ & ĐB Sông Hồng", "pu-peo": "Đông Bắc Bộ & ĐB Sông Hồng",
+  
+  // Bắc Trung Bộ & Duyên hải miền Trung (11)
+  "cham": "Bắc Trung Bộ & Duyên hải miền Trung", "tho": "Bắc Trung Bộ & Duyên hải miền Trung", "chut": "Bắc Trung Bộ & Duyên hải miền Trung", 
+  "o-du": "Bắc Trung Bộ & Duyên hải miền Trung", "bru-van-kieu": "Bắc Trung Bộ & Duyên hải miền Trung", "ta-oi": "Bắc Trung Bộ & Duyên hải miền Trung", 
+  "co-tu": "Bắc Trung Bộ & Duyên hải miền Trung", "hre": "Bắc Trung Bộ & Duyên hải miền Trung", "co": "Bắc Trung Bộ & Duyên hải miền Trung", 
+  "raglai": "Bắc Trung Bộ & Duyên hải miền Trung", "gie-trieng": "Bắc Trung Bộ & Duyên hải miền Trung",
+  
+  // Tây Nguyên (11)
+  "gia-rai": "Tây Nguyên", "e-de": "Tây Nguyên", "ba-na": "Tây Nguyên", "xo-dang": "Tây Nguyên", 
+  "mnong": "Tây Nguyên", "co-ho": "Tây Nguyên", "ma": "Tây Nguyên", "chu-ru": "Tây Nguyên", 
+  "ro-mam": "Tây Nguyên", "brau": "Tây Nguyên", "xtieng": "Tây Nguyên",
+  
+  // Tây Nam Bộ & Các dân tộc có dân số cực ít (10)
+  "khmer": "Tây Nam Bộ & Các dân tộc có dân số cực ít", "hoa": "Tây Nam Bộ & Các dân tộc có dân số cực ít", 
+  "cho-ro": "Tây Nam Bộ & Các dân tộc có dân số cực ít", "ngai": "Tây Nam Bộ & Các dân tộc có dân số cực ít", 
+  "pa-then": "Tây Nam Bộ & Các dân tộc có dân số cực ít", "phu-la": "Tây Nam Bộ & Các dân tộc có dân số cực ít", 
+  "la-hu": "Tây Nam Bộ & Các dân tộc có dân số cực ít", "mang": "Tây Nam Bộ & Các dân tộc có dân số cực ít", 
+  "cong": "Tây Nam Bộ & Các dân tộc có dân số cực ít", "si-la": "Tây Nam Bộ & Các dân tộc có dân số cực ít"
 };
 
 // Component hiển thị ảnh thumbnail với fallback
